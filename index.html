@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="1_translator.css" />
+    <script
+      src="https://kit.fontawesome.com/7883008276.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>translator</title>
+  </head>
+  <body>
+    <div class="header">
+      <p class="header_text">TRANSLATE</p>
+    </div>
+    <div class="container">
+      <div class="about_div">
+        <p>Translate even faster with this translate website</p>
+      </div>
+      <div class="container_items">
+        <div class="box">
+          <div class="head">
+            <p>TRANSLATOR</p>
+          </div>
+          <div class="from_to">
+            <div class="one">From</div>
+            <div>To</div>
+          </div>
+          <div class="main">
+            <div class="one">
+              <textarea class="text_area from" placeholder="type here..."></textarea>
+            </div>
+
+            <div>
+              <textarea class="text_area to" ></textarea>
+            </div>
+          </div>
+          <div class="options_container">
+            <div class="op">
+              
+              <div class="op_padding"><i class="fa-solid fa-volume-high pointer volume1"></i></div>
+              <div class="op_padding"><i class="fa-solid fa-copy pointer copy_text1"></i></div>
+              <div class="op_padding">
+                <select class="select" id="select1">
+                   
+                </select>
+              </div>
+            </div>
+
+            <div class="op op_padding pointer"><i class="fa-solid fa-right-left" id="swap"></i></div>
+
+            <div class="op">
+              <div class="op_padding">
+                <select class="select" id="select2">
+                </select>
+              </div>
+              <div class="op_padding"><i class="fa-solid fa-volume-high pointer volume2"></i></div>
+              <div class="op_padding"><i class="fa-solid fa-copy pointer copy_text2"></i></div>
+            </div>
+          </div>
+
+          <div class="btn" id="but"><button>Translate</button></div>
+        </div>
+      </div>
+    </div>
+ 
+    <script src="2_countries.js"></script>
+
+    <script src="1_translator.js"></script>
+   
+  </body>
+</html>
